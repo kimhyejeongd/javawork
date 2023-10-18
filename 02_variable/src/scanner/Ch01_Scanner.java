@@ -23,6 +23,7 @@ public class Ch01_Scanner {
 		System.out.println("당신은 여자 입니까?(true of false) : ");
 		boolean gender = scan.nextBoolean();
 		System.out.println("당신은 여자 입니까? " + gender);
+		scan.nextLine();
 		
 		System.out.println("주소를 입력하세요 : ");
 		String address = scan.nextLine();

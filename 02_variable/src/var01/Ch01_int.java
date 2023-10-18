@@ -1,6 +1,6 @@
 package var01;
 
-public class Ch1_int {
+public class Ch01_int {
 
 	public static void main(String[] args) {
 		int num1;
