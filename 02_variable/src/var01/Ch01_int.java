@@ -3,6 +3,10 @@ package var01;
 public class Ch01_int {
 
 	public static void main(String[] args) {
+		// * 기본자료형
+		// 정수 int 실수 double(float)  문자1개 char(유니코드 사용)  참, 거짓 boolean
+		// * 참고자료형 문자열 string
+		
 		int num1;
 		num1 = 10;
 		System.out.println(num1);

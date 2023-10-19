@@ -11,7 +11,7 @@ public class Ch02_double {
 		/* int / int = int
 		 * double / double = double
 		 * double / int = double
-		 * int / double = duble
+		 * int / double = double
 		 */
 		
 		System.out.println(dou2/dou1);   // double / double = double
