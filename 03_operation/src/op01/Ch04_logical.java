@@ -21,6 +21,21 @@ public class Ch04_logical {
 		re1 = num1 > num2 || num1 < num2;
 		System.out.println(re1);
 		
+		// ! : not
+		boolean b1 = num1 >= num2;
+		boolean re2=  !b1;
+		System.out.println(re2); //ture
+		System.out.println(!re2); //false 
+		System.out.println("-------------------");
+		
+		// A : 65, a : 97
+		char ch1 = 'A';
+		System.out.println("ch1 : " + ch1);
+		System.out.println("소문자 인가?" + (ch1 >= 'a' && ch1 <= 'z')); 
+		System.out.println("대문자 인가?" + (ch1 >= 'A' && ch1 <= 'z')); 
+
+
+		
 		
 		
 	}
