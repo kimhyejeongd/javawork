@@ -23,7 +23,20 @@ public class Re02_중첩for {
 		 3*1=3
 		 3*2=6
 		 */
-		for(int dan=2; dan<=9; dan++) { //구구단 구단까지출력
+		
+		/*
+		 * 구구단
+		System.out.println(2 * 1 = 2);
+		System.out.println(2 * 2 = 4);
+		System.out.println(2 * 3 = 6);
+		..
+		System.out.println(2 * 4 = 8);
+		for(i=1; i<=9; i++) {*/
+		
+		
+		
+		System.out.println(2 + "*"  );
+		for(int dan=2; dan<=9; dan++) { //구구단 9단까지출력
 			for(int i=1; i<=9; i++) {
 				//System.out.println(dan + "*" + "=" + dan*1);
 				System.out.printf("%d*%d=%2d\n",dan, i, dan*1);
