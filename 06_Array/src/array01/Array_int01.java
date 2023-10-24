@@ -56,10 +56,10 @@ public class Array_int01 {
 	        //문제1. 길이가 5인 배열에 값을 for문으로 0,3,6,9,12를 넣고
 	        //      합계를 구하여 출력하기
 	        int int3[] = new int[5];
-	        System.out.println("int3의 길이" + int3.length);
+	        System.out.println("int3의 길이" + int3.length); //length는 =을 넣으면안됨
 	        
 	        for(int a = 0; a<int3.length; a+=3)
-	        	System.out.println(int3[a]);
+	        	System.out.println(int3[a]);//틀림
 	        
 	        
 	        
