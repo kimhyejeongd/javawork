@@ -50,4 +50,5 @@ public class Snack {
     public String information() {
     	return kind + ", " + name + ", " + flavor + ", " + numOf + ", " + price;
     }
+    
 }
